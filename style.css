@@ -247,4 +247,14 @@ footer > p {
   section.contact > img.contact-bg {
     display: none;
   }
+
+  section.about > a.link-to-services {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 80px !important;
+    margin-top: 60px !important;
+    text-align: center !important;
+    width: 180px;
+  }
 }

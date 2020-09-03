@@ -232,6 +232,10 @@ footer > p {
     font-size: 1.5em;
   }
 
+  header > .slogan {
+    margin-top: 50px;
+  }
+
   section.about > .services {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;

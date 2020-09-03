@@ -189,6 +189,10 @@ footer > p {
 
 /***** MEDIA QUERIES *******/
 
+@media screen and (max-height: 480px) {
+
+}
+
 @media screen and (max-width: 720px) {
 
   header {
@@ -264,5 +268,12 @@ footer > p {
     margin-top: 60px !important;
     text-align: center !important;
     width: 180px;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .slogan,
+  header > img.landing {
+    margin-top: 70px;
   }
 }

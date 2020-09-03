@@ -218,21 +218,23 @@ footer > p {
 }
 
 @media screen and (max-width: 480px) {
-  .navbar > .nav > .menu > a,
-  .slogan > p {
+  .navbar > .nav > .menu > a {
     font-size: 0.9em;
   }
 
-  .slogan > h2 {
-    font-size: 1.5em;
+  .slogan > p,
+  a.m-btn {
+    font-size: 1em;
   }
 
-  a.m-btn {
-    font-size: 0.8em;
+  .slogan > h2,
+  h2.section-title {
+    font-size: 1.5em;
   }
 
   section.about > .services {
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
   }
 
   section.contact {

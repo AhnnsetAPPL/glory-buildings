@@ -12,7 +12,7 @@ header {
 
 .navbar {
   width: 100%;
-  box-shadow: 0px 0px 2px #baced8;
+  box-shadow: 0px 0px 1px #baced8;
   background-color: #ffffff;
 }
 
@@ -36,7 +36,7 @@ header {
 .navbar > .nav > h1 {
   border-radius: 50px;
   margin: 0 0 0 10px;
-  font-size: 1.7em;
+  font-size: 1.4em;
 }
 
 .main-content {
@@ -60,9 +60,16 @@ header {
   border: 1px solid #baced8;
   border-radius: 5px;
   padding: 7px;
-  width: 30%;
+  width: 40%;
 }
 
-.search-input {
+.search-input,
+button.search-btn {
   margin-left: 20px;
+}
+
+button.search-btn {
+  padding: 5px 15px;
+  border: 1px solid #baced8;
+  border-radius: 5px;
 }

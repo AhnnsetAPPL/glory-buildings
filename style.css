@@ -184,3 +184,65 @@ footer {
 footer > p {
   margin: 0;
 }
+
+
+
+/***** MEDIA QUERIES *******/
+
+@media screen and (max-width: 720px) {
+
+  header {
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header > .slogan {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header > img.landing {
+    display: none;
+  }
+
+  header > .navbar > .nav > .menu {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar > .nav > .menu > a,
+  .slogan > p {
+    font-size: 0.9em;
+  }
+
+  .slogan > h2 {
+    font-size: 1.5em;
+  }
+
+  a.m-btn {
+    font-size: 0.8em;
+  }
+
+  section.about > .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section.contact {
+    min-height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px;
+  }
+
+  section.contact > img.contact-bg {
+    display: none;
+  }
+}

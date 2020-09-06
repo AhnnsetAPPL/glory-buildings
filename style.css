@@ -6,6 +6,8 @@ body {
 
 header {
   height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -13,6 +15,8 @@ header {
 
 header > img.landing {
   height: 50vw;
+  max-width: 520;
+  max-height: 520px;
 }
 
 .navbar {
@@ -172,6 +176,8 @@ section.contact > .info > h2 {
 
 section.contact > img.contact-bg {
   width: 50vw;
+  max-width: 585px;
+  max-height: 585px;
 }
 
 footer {

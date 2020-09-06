@@ -298,4 +298,16 @@ a.cat > span.cat-counter {
   .main-content {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .navigation-bar > .navigation-nav > h1 {
+    display: none;
+  }
+
+  .navigation-bar > .navigation-nav > img.logo {
+    margin-left: 0;
+  }
+
+  .navigation-bar > .navigation-nav {
+    justify-content: center;
+  }
 }

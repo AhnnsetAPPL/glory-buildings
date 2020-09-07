@@ -5,16 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Glory Building</title>
 </head>
 <body>
   <header>
-    <div class="navbar">
+    <div class="navbar" id="navbar">
       <div class="nav">
         <img src="img/logo.jpg" alt="image logo" class="logo">
         <div class="menu">
           <a href="#services">Nos Services</a>
           <a href="#contacts">Contacts</a>
+          <a href="#">Se connecter</a>
+          <a href="#">S'enregistrer</a>
+        </div>
+        
+        <button class="hamburger" id="hamburger">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <a href="#contacts">Tous nos marchés</a>
           <a href="#">Se connecter</a>
           <a href="#">S'enregistrer</a>
         </div>
@@ -108,5 +119,7 @@
       <p>Glory Buildings &reg;, tous droits resérvés.</p>
     </footer>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

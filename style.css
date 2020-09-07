@@ -75,6 +75,7 @@ header > img.landing {
   width: 100%;
   align-items: center;
   justify-content: center;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid #efefef;
   background-color: hsla(0,0%,100%,.7);

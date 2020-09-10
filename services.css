@@ -46,7 +46,8 @@ header {
 	border-radius: 50px;
 	margin: 0 0 0 10px;
 	font-size: 1.4em;
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
 }
 
 .navigation-bar > .navigation-nav > a.user > i.navigation-user {
@@ -103,18 +104,22 @@ header {
   box-sizing: border-box;
   margin-bottom: 7px;
   border: 1px solid #dedede;
+  outline: none;
+  font-size: .9em;
+  padding: 6px;
 }
 
 .settings > .search > form > input.submit-btn {
   color: #ffffff;
-  border: 1px solid #0e74b4;
-  background-color: #0091ea;
+  border: 1px solid #bf360c;
+  background-color: #bf360c;
+  outline: none;
   transition: .3s all !important;
 }
 
 .settings > .search > form > input.submit-btn:hover {
   cursor: pointer;
-  background-color: #01579b;
+  background-color: #dd2c00;
 }
 
 .main-content > .settings > .filters {
@@ -190,13 +195,23 @@ a.cat > span.cat-counter {
   justify-content: flex-end;
 }
 
+a.cat:hover,
+a.cat.active {
+  color: #dd2c00;
+}
+
 .main-content > .deals {
   /* background-color: #ffffff; */
   min-height: 500px;
 }
 
 .main-content > .deals {
+  background-color: #ffffff; 
+  border: 1px solid #efefef;
+  height: fit-content;
   grid-column: 2/4;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .deals > a {
@@ -208,8 +223,10 @@ a.cat > span.cat-counter {
   background: #ffffff;
   border: 1px solid #efefef;
   box-sizing: border-box;
-  margin-bottom: 20px;
-  width: 100%;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: auto;
   min-height: 120px;
   display: flex;
   align-self: flex-start;
@@ -218,8 +235,12 @@ a.cat > span.cat-counter {
   transition: .3s all !important;
 }
 
+.deals > h3 {
+  margin-bottom: 15px;
+}
+
 .deals > a > .deal:hover {
-  box-shadow: 0 0 20px #dedede;
+  box-shadow: 0 0 7px #e5e5e5;
 }
 
 .deals > a > .deal > .meta {
@@ -287,6 +308,7 @@ a.cat > span.cat-counter {
   position: absolute;
   left: 10px;
   bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 1030px) {
